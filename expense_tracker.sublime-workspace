@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"par",
+				"paragraph_one"
+			],
+			[
+				"case",
+				"case_study"
+			],
+			[
+				"deadline",
+				"deadline_date"
+			],
+			[
+				"sign",
+				"sign_off_call"
+			],
+			[
+				"preli",
+				"prelim_call_at"
+			],
+			[
+				"briefing_c",
+				"briefing_call_at"
+			],
+			[
+				"briefi",
+				"briefing_call_at"
+			],
+			[
 				"l",
 				"local_authority"
 			],
@@ -486,34 +514,6 @@
 			[
 				"measured",
 				"measured_survey"
-			],
-			[
-				"Date",
-				"DateTime"
-			],
-			[
-				"confirm",
-				"confirmation_with_customer"
-			],
-			[
-				"measure",
-				"measured_survey"
-			],
-			[
-				"mea",
-				"measured_survey"
-			],
-			[
-				"stat",
-				"state_name"
-			],
-			[
-				"target",
-				"target_state"
-			],
-			[
-				"colle",
-				"dimension_collection_method"
 			]
 		]
 	},
@@ -528,7 +528,7 @@
 	"command_palette":
 	{
 		"height": 119.0,
-		"last_filter": "close al",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -577,29 +577,110 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/sofiane/Documents/GitHub/recaller",
-		"/Users/sofiane/Documents/GitHub/recaller/spec",
-		"/Users/sofiane/Documents/GitHub/expense_tracker"
-	],
 	"file_history":
 	[
-		"/Users/sofiane/Documents/GitHub/recaller/.gitignore",
-		"/Users/sofiane/Documents/GitHub/recaller/spec/rails_helper.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/db/seeds.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/spec/feature/brief_setup_spec.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/models/product.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/advice_calls/_slot_calendar.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/advice_calls/_call_confirmed.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/advice_calls/show.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/welcome/_instant_quote.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/advice_calls/new.html.erb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/mailers/admin_notifications_mailer.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/models/brief.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/models/item.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/models/invoice.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/payments/after_payment_trigger.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/quotes/show.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/quotes/_quote.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/products/_list.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/planning_authority/local_authority_finder.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/feature/public_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/case_studies/_case_study.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/image_fetcher_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/case_studies_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180227152034_remove_case_studies_table.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/contentful_models/case_study.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/worklist_counts.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/planning_application.rb",
 		"/Users/sofiane/Documents/GitHub/buildpath/config/routes.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/shared/_pushy_nav.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/case_studies/index.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/schema.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/tmp/cache/bootsnap-compile-cache/07/12893c3976dc83",
+		"/Users/sofiane/Documents/GitHub/buildpath/tmp/cache/bootsnap-compile-cache/c6/85691b0a2efd99",
+		"/Users/sofiane/Documents/GitHub/buildpath/tmp/cache/bootsnap-compile-cache/c9/0d976ce38063c2",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/case_studies_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/helpers/image_helper.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/image_fetcher/_show_case_study.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/image_fetcher/_show.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/image_fetcher/show_case_study.js.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/contentful_models/contentful_case_study.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/advice_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/case_studies/_completed_block.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/contentful_models/advice_article.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/advice/article/_card.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/case_study.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/config/initializers/paperclip.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/planning_applications_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/planning_applications/show/_followup.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/planning_applications/show/_validation.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/planning_applications/_section_3.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/planning_applications/_section_4.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/briefs/_planning.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/planning_applications/show/_sidebar.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/assets/stylesheets/_typography.scss",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/case_studies/new.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/Gemfile",
+		"/Users/sofiane/Documents/GitHub/buildpath/config/initializers/aa_contentful.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180226153913_migrate_case_studies_to_contentful.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/marketing_spends_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/marketing_spends/_edit.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180226142145_add_cac_column_to_marketing_spends.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/marketing_budgets/index.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/integration/planning_applications/deadline_date_updater_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/planning_applications/application_fetcher.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180226134907_migrate_followup_date_column_for_planning_applications.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/planning_applications/_edit.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/planning_applications/tables/_followup.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/modules/date_selector.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/helpers/time_helper.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/models/planning_application_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/event.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/poros/brief/brief_call_updater_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/planning_applications/deadline_date_updater.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180226125830_add_followup_date_to_planning_applications.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/poros/planning_applications/deadline_date_updater_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/models/event_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180226110701_migrate_messages_without_brief.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180226104619_migrate_messages_without_brief.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/user.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/advice_call.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/brief.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/message.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180226104412_migrate_basic_brief_for_user_that_has_messages_but_no_brief.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/payments/stripe_charge_processor.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/messages/_new_message.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/stripe_cards_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/stripe_charges_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/messages/_history.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/payments/after_payment_trigger.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin_notifications_mailer/new_payment_alert.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/invoice.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/brief/brief_call_updater.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/welcome/_footer.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/product.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/products/_list.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/briefs/show/_prelim_issue.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/briefs_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin_notifications_mailer/brief_call.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin_notifications_mailer/sign_off_call.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/briefs/show/_briefing.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/brief_calls_controller.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/quotes/show.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/quotes/_quote.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/support/factories/brief_factory.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/models/advice_call_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/completed_brief_task.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/quick_quotes/quote/_products.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/item.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/models/quote.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/integration/brief_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/models/brief_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/feature/stripe_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/spec/feature/brief_setup_spec.rb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/quotes/_quote.html.erb",
+		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/planning_authority/local_authority_finder.rb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/interactive_process_controller.rb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/booked_revenue_calculator.rb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/views/daily_report_mailer/management.html.erb",
@@ -618,7 +699,6 @@
 		"/Users/sofiane/Documents/GitHub/buildpath/lib/tasks/scheduler.rake",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/models/progress_update.rb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/toggl.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/briefs_controller.rb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/valuation_calculator.rb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/views/questions/index.html.erb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/views/welcome/architects_near_me.html.erb",
@@ -626,97 +706,11 @@
 		"/Users/sofiane/Documents/GitHub/buildpath/app/views/welcome/architects_near/_masthead.html.erb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/models/property.rb",
 		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/advice_calls_controller.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/welcome_controller.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/advice_controller.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/models/valuation.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/planning_authority/planning_authority_finder.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/customers/briefs_controller.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/documents_controller.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/messages/index.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/messages/_history.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/admin/communications_controller.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/communications/_index.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/customers/show.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/customers/_show.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/db/migrate/20180213085154_link_messages_to_briefs.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/messages/_other_briefs.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/admin/messages/_brief_selection.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/db/schema.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/.gitignore",
-		"/Users/sofiane/Documents/GitHub/buildpath/spec/feature/payment_spec.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/spec/feature/stripe_spec.rb",
-		"/Users/sofiane/Library/Application Support/Sublime Text 3/Packages/User/TestRSpec.sublime-settings",
-		"/Users/sofiane/Documents/GitHub/buildpath/spec/support/poltergeist.rb",
-		"/Users/sofiane/Library/Application Support/Sublime Text 3/Packages/TestRSpec/Preferences.sublime-settings",
-		"/Users/sofiane/Documents/GitHub/buildpath/spec/poros/catalyst_spec.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/poros/coleman/catalyst.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/spec/support/page_objects/stripe_page_object.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/layouts/loggedin.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/stripe_charges_controller.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/quotes/show.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/quotes/quote/_payment.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/app/views/shared/_flash.html.erb",
-		"/Users/sofiane/Documents/GitHub/buildpath/PATH=$HOME/.rb",
-		"/Users/sofiane/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/activerecord-5.0.2/lib/active_record/connection_adapters/postgresql_adapter.rb",
-		"/Users/sofiane/Documents/GitHub/buildpath/config/application.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/translations/create.js.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/controllers/translations_controller.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/translations/edit.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/translations/index.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/models/writing.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/models/translation.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/answers/_new.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/answers/_show.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/layouts/devise.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/layouts/error.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/shared/_errors.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/shared/_notice.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/supports/_form.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/supports/_support.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/translations/_form.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/translations/_translation.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/translations/destroy.js.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/config/application.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/stylesheets/application.scss",
-		"/Users/sofiane/Documents/GitHub/recaller/app/controllers/reviews_controller.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/models/support.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/controllers/application_controller.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/home/index.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/db/migrate/20180218211429_remove_icon_column_from_media_types.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/models/media_type.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/supports/edit.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/supports/new.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/reviews/_show.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/shared/_navbar.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/stylesheets/variables/_colours.scss",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/stylesheets/_backgrounds.scss",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/layouts/application.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/stylesheets/_colours.scss",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/stylesheets/supports.scss",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/javascripts/shared.coffee",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/javascripts/translations.coffee",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/shared/_title.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/views/shared/js/_basscss.html.erb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/javascripts/application.js",
-		"/Users/sofiane/Documents/GitHub/recaller/app/assets/stylesheets/translations.scss",
-		"/Users/sofiane/Documents/GitHub/recaller/Gemfile",
-		"/Users/sofiane/Documents/GitHub/recaller/app/controllers/answers_controller.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/controllers/supports_controller.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/log/development.log",
-		"/Users/sofiane/Documents/GitHub/recaller/spec/examples.txt",
-		"/Users/sofiane/Documents/GitHub/recaller/spec/poros/tea_spec.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/poros/teacher.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/spec/poros/teacher_spec.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/poros/question/questions_creator.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/spec/poros/question/questions_creator_spec.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/poros/question/question_generator.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/spec/poros/question/question_generator_spec.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/spec/poros/question/question_asker_spec.rb",
-		"/Users/sofiane/Documents/GitHub/recaller/app/poros/question/question_asker.rb"
+		"/Users/sofiane/Documents/GitHub/buildpath/app/controllers/welcome_controller.rb"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -730,7 +724,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"ssl"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -786,7 +779,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 267.0
+		"height": 292.0
 	},
 	"output.find_results":
 	{
@@ -806,16 +799,252 @@
 		"selected_items":
 		[
 			[
-				"seed",
-				"db/seeds.rb"
+				"slot_calen",
+				"app/views/advice_calls/_slot_calendar.html.erb"
+			],
+			[
+				"admin_not",
+				"app/mailers/admin_notifications_mailer.rb"
+			],
+			[
+				"spec/feature/public",
+				"spec/feature/public_spec.rb"
+			],
+			[
+				"schem",
+				"db/schema.rb"
+			],
+			[
+				"pushy_nav",
+				"app/views/admin/shared/_pushy_nav.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"admin/case",
+				"app/controllers/admin/case_studies_controller.rb"
+			],
+			[
+				"planning",
+				"app/models/planning_application.rb"
+			],
+			[
+				"worklis",
+				"app/poros/worklist_counts.rb"
+			],
+			[
+				"image_",
+				"app/controllers/image_fetcher_controller.rb"
+			],
+			[
+				"case",
+				"app/controllers/case_studies_controller.rb"
+			],
+			[
+				"paper",
+				"config/initializers/paperclip.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"case_",
+				"app/controllers/case_studies_controller.rb"
+			],
+			[
+				"advice",
+				"app/controllers/advice_controller.rb"
+			],
+			[
+				"contenf",
+				"app/contentful_models/contentful_case_study.rb"
+			],
+			[
+				"case_stu",
+				"app/models/case_study.rb"
+			],
+			[
+				"case_studies/complet",
+				"app/views/case_studies/_completed_block.html.erb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"followu",
+				"app/views/admin/planning_applications/show/_followup.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"article",
+				"app/contentful_models/advice_article.rb"
+			],
+			[
+				"case_s",
+				"app/controllers/case_studies_controller.rb"
+			],
+			[
+				"marketing_spe",
+				"app/controllers/admin/marketing_spends_controller.rb"
+			],
+			[
+				"date",
+				"app/models/modules/date_selector.rb"
+			],
+			[
+				"plannin",
+				"app/models/planning_application.rb"
+			],
+			[
+				"application_fe",
+				"app/poros/planning_applications/application_fetcher.rb"
+			],
+			[
+				"planning_applica",
+				"app/controllers/admin/planning_applications_controller.rb"
+			],
+			[
+				"planning_application_con",
+				"app/controllers/admin/planning_applications_controller.rb"
+			],
+			[
+				"event.r",
+				"app/models/event.rb"
+			],
+			[
+				"event_se",
+				"spec/models/event_spec.rb"
+			],
+			[
+				"messag",
+				"app/models/message.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"brief",
+				"app/models/brief.rb"
+			],
+			[
+				"messages/new_me",
+				"app/views/messages/_new_message.html.erb"
+			],
+			[
+				"history",
+				"app/views/messages/_history.html.erb"
+			],
+			[
+				"message.",
+				"app/models/message.rb"
+			],
+			[
+				"stripe_charge",
+				"app/poros/payments/stripe_charge_processor.rb"
+			],
+			[
+				"stripe_charge_",
+				"app/controllers/admin/stripe_charges_controller.rb"
+			],
+			[
+				"admin/stri",
+				"app/controllers/admin/stripe_cards_controller.rb"
+			],
+			[
+				"brief_call",
+				"buildpath/app/poros/brief/brief_call_updater.rb"
+			],
+			[
+				"invoic",
+				"buildpath/app/models/invoice.rb"
+			],
+			[
+				"adminnotificationsmailer",
+				"buildpath/app/mailers/admin_notifications_mailer.rb"
+			],
+			[
+				"after",
+				"buildpath/app/poros/payments/after_payment_trigger.rb"
+			],
+			[
+				"admin",
+				"buildpath/app/mailers/admin_notifications_mailer.rb"
+			],
+			[
+				"produc",
+				"buildpath/app/models/product.rb"
+			],
+			[
+				"footer",
+				"buildpath/app/views/welcome/_footer.html.erb"
+			],
+			[
+				"after_payment",
+				"buildpath/app/poros/payments/after_payment_trigger.rb"
+			],
+			[
+				"brief_cont",
+				"buildpath/app/controllers/admin/briefs_controller.rb"
+			],
+			[
+				"completedbrieftask",
+				"buildpath/app/models/completed_brief_task.rb"
+			],
+			[
+				"brief_cal",
+				"buildpath/spec/poros/brief/brief_call_updater_spec.rb"
+			],
+			[
+				"brief_f",
+				"buildpath/spec/support/factories/brief_factory.rb"
+			],
+			[
+				"briefs_con",
+				"buildpath/app/controllers/admin/briefs_controller.rb"
+			],
+			[
+				"admin_notifi",
+				"buildpath/app/mailers/admin_notifications_mailer.rb"
+			],
+			[
+				"models/brief_se",
+				"buildpath/spec/models/brief_spec.rb"
+			],
+			[
+				"brief_spe",
+				"buildpath/spec/integration/brief_spec.rb"
+			],
+			[
+				"quote.r",
+				"buildpath/app/models/quote.rb"
+			],
+			[
+				"item.rb",
+				"buildpath/app/models/item.rb"
+			],
+			[
+				"quote/produ",
+				"buildpath/app/views/quick_quotes/quote/_products.html.erb"
+			],
+			[
+				"quotes/quote",
+				"buildpath/app/views/quotes/_quote.html.erb"
+			],
+			[
+				"admin/quotes",
+				"buildpath/app/views/admin/quotes/show.html.erb"
 			],
 			[
 				"item.r",
 				"app/models/item.rb"
-			],
-			[
-				"item.rb",
-				"app/controllers/admin/items_controller.rb"
 			],
 			[
 				"invoice",
@@ -824,18 +1053,6 @@
 			[
 				"adminnoti",
 				"app/mailers/admin_notifications_mailer.rb"
-			],
-			[
-				"brief",
-				"app/models/brief.rb"
-			],
-			[
-				"after_payment",
-				"app/poros/payments/after_payment_trigger.rb"
-			],
-			[
-				"produc",
-				"app/models/product.rb"
 			],
 			[
 				"admin/products/lis",
@@ -894,10 +1111,6 @@
 				"app/poros/planning_authority/local_authority_finder.rb"
 			],
 			[
-				"route",
-				"config/routes.rb"
-			],
-			[
 				"local_a",
 				"app/controllers/local_authority_finder_controller.rb"
 			],
@@ -938,10 +1151,6 @@
 				"app/models/valuation.rb"
 			],
 			[
-				"planning",
-				"app/models/planning_authority.rb"
-			],
-			[
 				"toggl",
 				"app/poros/toggl.rb"
 			],
@@ -952,14 +1161,6 @@
 			[
 				"togglprojectworker",
 				"app/workers/toggl_project_worker.rb"
-			],
-			[
-				"briefs_con",
-				"app/controllers/admin/briefs_controller.rb"
-			],
-			[
-				"brief_cont",
-				"app/controllers/admin/customers/briefs_controller.rb"
 			],
 			[
 				"progre",
@@ -1000,10 +1201,6 @@
 			[
 				"customer/show",
 				"app/views/admin/customers/_show.html.erb"
-			],
-			[
-				"schem",
-				"db/schema.rb"
 			],
 			[
 				"gitign",
@@ -1066,10 +1263,6 @@
 				"app/controllers/stripe_charges_controller.rb"
 			],
 			[
-				"gem",
-				"Gemfile"
-			],
-			[
 				"transla",
 				"app/controllers/translations_controller.rb"
 			],
@@ -1116,206 +1309,6 @@
 			[
 				"home/ind",
 				"app/views/home/index.html.erb"
-			],
-			[
-				"suppor",
-				"app/models/support.rb"
-			],
-			[
-				"application_cont",
-				"app/controllers/application_controller.rb"
-			],
-			[
-				"translation/ind",
-				"app/views/translations/index.html.erb"
-			],
-			[
-				"application.htm",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"trna",
-				"app/models/translation.rb"
-			],
-			[
-				"writ",
-				"app/models/writing.rb"
-			],
-			[
-				"teac",
-				"app/poros/teacher.rb"
-			],
-			[
-				"questions_c",
-				"spec/poros/question/questions_creator_spec.rb"
-			],
-			[
-				"questions_cr",
-				"app/poros/question/questions_creator.rb"
-			],
-			[
-				"question_gene",
-				"spec/poros/question/question_generator_spec.rb"
-			],
-			[
-				"question_asker_sp",
-				"spec/poros/question/question_asker_spec.rb"
-			],
-			[
-				"question_as",
-				"db/migrate/20180207201559_remove_question_answer_from_questions.rb"
-			],
-			[
-				"answer_spe",
-				"spec/models/answer_spec.rb"
-			],
-			[
-				"support_sp",
-				"spec/models/support_spec.rb"
-			],
-			[
-				"review_sp",
-				"spec/models/review_spec.rb"
-			],
-			[
-				"ques",
-				"spec/models/question_spec.rb"
-			],
-			[
-				"question_sp",
-				"spec/models/question_spec.rb"
-			],
-			[
-				"quesi",
-				"app/models/question.rb"
-			],
-			[
-				"question",
-				"app/models/question.rb"
-			],
-			[
-				"answ",
-				"app/models/answer.rb"
-			],
-			[
-				"quest",
-				"app/models/question.rb"
-			],
-			[
-				"answer",
-				"app/models/answer.rb"
-			],
-			[
-				"answer_corr",
-				"app/poros/answer/answer_corrector.rb"
-			],
-			[
-				"user",
-				"app/models/user.rb"
-			],
-			[
-				"payment_cont",
-				"app/controllers/payments_controller.rb"
-			],
-			[
-				"quote",
-				"app/models/quote.rb"
-			],
-			[
-				"payment.rb",
-				"app/models/payment.rb"
-			],
-			[
-				"letter",
-				"app/views/quotes/_letter.html.erb"
-			],
-			[
-				"quotes/lette",
-				"app/views/quotes/_letter.html.erb"
-			],
-			[
-				"quote/show",
-				"app/views/quotes/show.html.erb"
-			],
-			[
-				"item_fa",
-				"spec/support/factories/item_factory.rb"
-			],
-			[
-				"invoice_f",
-				"spec/support/factories/invoice_factory.rb"
-			],
-			[
-				"brief_fac",
-				"spec/support/factories/brief_factory.rb"
-			],
-			[
-				"quote_fa",
-				"spec/support/factories/quote_factory.rb"
-			],
-			[
-				"invoice_fa",
-				"spec/support/factories/invoice_factory.rb"
-			],
-			[
-				"quote_fac",
-				"spec/support/factories/quote_factory.rb"
-			],
-			[
-				"user_f",
-				"spec/support/factories/user_factory.rb"
-			],
-			[
-				"prope",
-				"app/models/property.rb"
-			],
-			[
-				"question_cre",
-				"app/poros/question/questions_creator.rb"
-			],
-			[
-				"synony",
-				"app/poros/answer/synonym_corrector.rb"
-			],
-			[
-				"js/moda",
-				"app/views/shared/js/_modal.html.erb"
-			],
-			[
-				"application.hm",
-				"app/views/layouts/application.html.erb"
-			],
-			[
-				"synonym",
-				"app/poros/writing/synonyms_finder.rb"
-			],
-			[
-				"langua",
-				"spec/factories/languages.rb"
-			],
-			[
-				"synon",
-				"app/poros/writing/synonyms_finder.rb"
-			],
-			[
-				"langu",
-				"spec/factories/languages.rb"
-			],
-			[
-				"",
-				"spec/poros/answer/answer_corrector_spec.rb"
-			],
-			[
-				"schem/",
-				"tmp/cache/assets/sprockets/v3.0/he/heHILW9sCSaCVqDfSiNwQlvUlFVMz2_LOHgd1HrjtmY.cache"
-			],
-			[
-				"gemfil",
-				"Gemfile"
-			],
-			[
-				"questionco",
-				"app/poros/question/question_corrector.rb"
 			]
 		],
 		"width": 0.0

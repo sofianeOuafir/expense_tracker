@@ -2,10 +2,9 @@ require 'rack/test'
 require 'json'
 require_relative '../../app/api'
 require_relative '../../config/sequel'
-require_relative '../support/db'
 
 module ExpenseTracker
-  RSpec.describe 'Expense Tracker API' do
+  RSpec.describe 'Expense Tracker API', :db do
 
     def post_expense(expense)
       post '/expenses', JSON.generate(expense)
